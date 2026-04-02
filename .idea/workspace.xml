@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae5534c8-970f-469c-a13c-c729fa340283" name="Changes" comment="Tuile 4 terminée (dataclasses competence et validation ajoutées)">
-      <change afterPath="$PROJECT_DIR$/competences.py" afterDir="false" />
+    <list default="true" id="ae5534c8-970f-469c-a13c-c729fa340283" name="Changes" comment="Tuile 5 - Mypy ne retourne plus d'erreur">
+      <change afterPath="$PROJECT_DIR$/FastAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FastAPI_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apprenant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apprenant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Promotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Promotion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilisateur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,9 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for FastAPI_test.test_get_todos.executor": "Run",
+    "Python tests.Python tests for FastAPI_test.test_post_todo.executor": "Run",
+    "Python.FastAPI.executor": "Run",
     "Python.Main.executor": "Run",
     "Python.Promotion.executor": "Run",
     "Python.Validation.executor": "Run",
@@ -63,6 +66,50 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Python tests for FastAPI_test.test_get_todos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Projet_fil_rouge" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;FastAPI_test.test_get_todos&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for FastAPI_test.test_post_todo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Projet_fil_rouge" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;FastAPI_test.test_post_todo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_todos" />
+      <item itemvalue="Python tests.Python tests for FastAPI_test.test_post_todo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for FastAPI_test.test_post_todo" />
+        <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_todos" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775108554805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tuile 5 - Mypy ne retourne plus d'erreur">
+      <option name="closed" value="true" />
+      <created>1775116420479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775116420479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tuile 4- Partie POO terminée" />
     <MESSAGE value="Tuile 4 terminée (dataclasses competence et validation ajoutées)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tuile 4 terminée (dataclasses competence et validation ajoutées)" />
+    <MESSAGE value="Tuile 5 - Mypy ne retourne plus d'erreur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tuile 5 - Mypy ne retourne plus d'erreur" />
   </component>
 </project>
