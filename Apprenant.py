@@ -2,7 +2,7 @@ from Utilisateur import Utilisateur
 
 
 class Apprenant(Utilisateur):
-	def __init__(self, nom:str, id:int, competences_validees:list):
+	def __init__(self, nom:str, id:int, competences_validees:list[int | str]):
 		super().__init__(nom, id)
 		self._competences_validees = competences_validees
 
@@ -12,7 +12,7 @@ class Apprenant(Utilisateur):
 		else:
 			return False
 
-	def ajouter_competence(self, competence_id:int):
+	def ajouter_competence(self, competence_id:int)->None:
 		if competence_id in self._competences_validees:
 			raise ValueError("Cette valeur est un double")
 		else:

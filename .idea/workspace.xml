@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae5534c8-970f-469c-a13c-c729fa340283" name="Changes" comment="Tuile 4- Partie POO terminée">
-      <change afterPath="$PROJECT_DIR$/Competence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Validation.py" afterDir="false" />
+    <list default="true" id="ae5534c8-970f-469c-a13c-c729fa340283" name="Changes" comment="Tuile 4 terminée (dataclasses competence et validation ajoutées)">
+      <change afterPath="$PROJECT_DIR$/competences.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apprenant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Apprenant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Promotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Promotion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilisateur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilisateur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775047155553</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tuile 4 terminée (dataclasses competence et validation ajoutées)">
+      <option name="closed" value="true" />
+      <created>1775108554805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775108554805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tuile 4- Partie POO terminée" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tuile 4- Partie POO terminée" />
+    <MESSAGE value="Tuile 4 terminée (dataclasses competence et validation ajoutées)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tuile 4 terminée (dataclasses competence et validation ajoutées)" />
   </component>
 </project>
