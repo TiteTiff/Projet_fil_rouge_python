@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae5534c8-970f-469c-a13c-c729fa340283" name="Changes" comment="Tuile 5 - Mypy ne retourne plus d'erreur">
-      <change afterPath="$PROJECT_DIR$/FastAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FastAPI_test.py" afterDir="false" />
+    <list default="true" id="ae5534c8-970f-469c-a13c-c729fa340283" name="Changes" comment="Tuile 6- Exercice 1.1/1.2 terminés, exercice 1.3 en cours">
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastAPI_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastAPI_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,14 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for FastAPI_test.test_get_todos.executor": "Run",
+    "Python tests.Python tests for FastAPI_test.test_get_todos_by_id.executor": "Run",
+    "Python tests.Python tests for FastAPI_test.test_get_user_todos_by_id.executor": "Run",
+    "Python tests.Python tests for FastAPI_test.test_get_users.executor": "Run",
+    "Python tests.Python tests for FastAPI_test.test_get_usertodos_by_id.executor": "Run",
     "Python tests.Python tests for FastAPI_test.test_post_todo.executor": "Run",
+    "Python tests.Python tests for FastAPI_test.test_user_without_todos.executor": "Run",
+    "Python tests.Python tests for FastAPI_test.test_userswithouttodos.executor": "Run",
+    "Python tests.Python tests in FastAPI_test.py.executor": "Run",
     "Python.FastAPI.executor": "Run",
     "Python.Main.executor": "Run",
     "Python.Promotion.executor": "Run",
@@ -63,11 +68,12 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/media/tiffanie.simon@Digital-Grenoble.local/DA7F-E9FB/Formation développeur avancé & IA/Modules/Python",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Python tests for FastAPI_test.test_get_todos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for FastAPI_test.test_get_todos_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Projet_fil_rouge" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +85,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;FastAPI_test.test_get_todos&quot;" />
+      <option name="_new_target" value="&quot;FastAPI_test.test_get_todos_by_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for FastAPI_test.test_get_user_todos_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Projet_fil_rouge" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;FastAPI_test.test_get_user_todos_by_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for FastAPI_test.test_get_users" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Projet_fil_rouge" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;FastAPI_test.test_get_users&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -93,20 +131,42 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;FastAPI_test.test_post_todo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for FastAPI_test.test_user_without_todos" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Projet_fil_rouge" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;FastAPI_test.test_user_without_todos&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_todos" />
+      <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_todos_by_id" />
+      <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_user_todos_by_id" />
+      <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_users" />
+      <item itemvalue="Python tests.Python tests for FastAPI_test.test_user_without_todos" />
       <item itemvalue="Python tests.Python tests for FastAPI_test.test_post_todo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_users" />
+        <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_user_todos_by_id" />
+        <item itemvalue="Python tests.Python tests for FastAPI_test.test_user_without_todos" />
+        <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_todos_by_id" />
         <item itemvalue="Python tests.Python tests for FastAPI_test.test_post_todo" />
-        <item itemvalue="Python tests.Python tests for FastAPI_test.test_get_todos" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775116420479</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tuile 6- Exercice 1.1/1.2 terminés, exercice 1.3 en cours">
+      <option name="closed" value="true" />
+      <created>1775133507584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775133507584</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +235,7 @@
     <MESSAGE value="Tuile 4- Partie POO terminée" />
     <MESSAGE value="Tuile 4 terminée (dataclasses competence et validation ajoutées)" />
     <MESSAGE value="Tuile 5 - Mypy ne retourne plus d'erreur" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tuile 5 - Mypy ne retourne plus d'erreur" />
+    <MESSAGE value="Tuile 6- Exercice 1.1/1.2 terminés, exercice 1.3 en cours" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tuile 6- Exercice 1.1/1.2 terminés, exercice 1.3 en cours" />
   </component>
 </project>
